@@ -4,7 +4,7 @@
 <%@ taglib prefix="petclinic" tagdir="/WEB-INF/tags" %>
 qcewcwedcdwcdw
 <petclinic:layout pageName="kl">
-    <div class="row">
+    <div>
         <div class="col-md-12">
             <spring:url value="/resources/images/pets.png" htmlEscape="true" var="petsImage"/>
             <img class="img-responsive" alt="A cat and a dog" src="${petsImage}"/>
